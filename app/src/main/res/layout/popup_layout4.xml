@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:padding="20dp">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step 4: Fee Payment"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After uploading your photograph and signature, click on the Make Payment button."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Review all the details carefully and ensure that they are correct."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on the 'Pay Now' button to proceed with the payment."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose the online mode of payment, such as credit card, debit card, net banking, debit card (ATM Pin), or cash card."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow the instructions provided by the payment gateway to complete the payment process. Once the payment is successful, take a printout of the payment receipt for future reference."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

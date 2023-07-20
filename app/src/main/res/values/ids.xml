@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recycler_view" type="id" />
+    <item name="bottom_layout" type="id" />
+    <item name="welcome_text" type="id" />
+    <item name="message_edit_text" type="id" />
+    <item name="send_btn" type="id" />
+</resources>

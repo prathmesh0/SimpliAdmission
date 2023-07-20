@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537809425157",
+    "project_id": "simpliadmission",
+    "storage_bucket": "simpliadmission.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537809425157:android:2b9d21afb14738ba371d6c",
+        "android_client_info": {
+          "package_name": "com.example.simpliadmission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537809425157-e6fe7qak4vktdslf5da1ai0ef88e6nji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl9kE0CdGvrCr_JuBu6RdzE-wkM1Hs1p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537809425157-e6fe7qak4vktdslf5da1ai0ef88e6nji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

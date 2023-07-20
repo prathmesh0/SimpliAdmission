@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">SimpliAdmission</string>
+    <string name="main_logo">main_logo</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="password">Password</string>
+    <string name="repassword">Re-enter Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="button">Button</string>
+    <string name="haveaccount">Already have an account? Click here</string>
+    <string name="noaccount">Don\'t have an account? Click here</string>
+    <string name="colleges">Colleges</string>
+    <string name="splash_logo">Splash logo</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="compare">Compare</string>
+    <string name="steps">Steps</string>
+    <string name="faq">FAQ</string>
+    <string name="scholarship">Scholarship</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="prediction">College \nPrediction</string>
+    <string name="user_prof">User Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="conflogout">Confirm to Logout</string>
+    <string name="logout">Logout</string>
+    <string name="resetpass">Reset Password</string>
+    <string name="Q1">Q.1 How Do I Find a college that Best Suits My Needs?</string>
+    <string name="Q2">Q.2 What Competitive Examinations Should I Prepare for Admission in Engineering colleges?</string>
+    <string name="Q3">Q.3 What Is the Eligibility Criteria for The College Admission Process?</string>
+    <string name="Q4">Q.4 What Scholarships or Aid Is Provided by The College to Help Students? </string>
+    <string name="Q5">Q.5 How Does the College Ensure Student Safety on The Campus?</string>
+    <string name="Q6">Q.6 Do You Help Graduates with Placements?</string>
+    <string name="Q7">Q.6 What is the difference between B.E. and B.Tech?</string>
+    <string name="Q8">Q.8 If two colleges hold equal status, then what should I prefer, B.E. or B. Tech?</string>
+    <string name="Q9">Q.9 What is an autonomous engineering institute?</string>
+    <string name="Q10">Q.10 What are the challenges faced by an autonomous college?</string>
+    <string name="Q11">Q.11 How does the examination system function in an autonomous college?</string>
+    <string name="Q12">Q.12 Computer Engineering – Career Prospects</string>
+    <string name="Q13">Q.13 First Year Engineering Admission Eligibility.</string>
+    <string name="Q14">Q.14 Direct Second Year Admission Eligibility.</string>
+    <string name="Q15">Q.7 Undergraduate Engineering Admission 2022–2023 Documents.</string>
+    <string name="Q16">Q.16 What is the Difference Between Degree and Diploma?</string>
+    <string name="Q17">Q.17 Top Engineering Colleges in Mumbai</string>
+    <string name="Q18">Q.18 Which is the best course to pursue after B.E. /B.Tech?</string>
+    <string name="Q19">Q.19 Is There Accommodation Provided Within the Campus?</string>
+    <string name="Q20">Q.20 Eligibility for Tuition Fee Waiver Scheme (TFWS) under MHT CET 2022</string>
+    <string name="Q21">Q.21 MHT CET Seat Allotment 2022</string>
+    <string name="Q22">Q.22 Do I have to pay MHT CET 2022 counselling fee?</string>
+    <string name="Q23">Q.23 Can we add new colleges for the CAP round 2?</string>
+    <string name="Q24">Q.24 How do CAP round work?</string>
+    <string name="Q1Ans">One of the most frequently asked questions on college admissions is what kind of college is best suited for your requirements. Here, your college consultant already has a well-planned database of colleges. A good college consultant will already know which college is the best for a particular course. Remember to inform your consultant of your interests, hobbies, career plans and financial situation. This information helps your consultant to narrow down the list of colleges that are best suited for you. "</string>
+    <string name="Q2Ans"><p>Competitive examinations are tests where students are graded according to their performance and only the top rankers are selected.</p>
+        <p>A student vying for a particular seat will face fierce competition from thousands of other students also eyeing the same seat. That is why preparation for competitive examinations is an important part of a student’s life.</p>
+        <p>There are numerous competitive exams after 12th science for engineering courses. Apart from national-level competitive exams conducted by the National Testing Agency and state-level competitive exams conducted by the Government of the states.</p> <p><b>1. JEE Main/ Advanced </b></p><p>The JEE Main/Advanced examination is an attempt to seek admissions into IITs, NITs, and state engineering colleges of participating states for courses in B.E, B. Tech, B.Arch., and B. Planning</p><p><b> 2. Birla Institute of Technology and Science Admission Test (BITSAT) </b></p><p>Several states offer various state-level competitive examinations for colleges within the state</p>   <br><b>MHT CET exam</b></br></string>
+    <string name="hello">Hello</string>
+    <string name="name">Name</string>
+    <string name="college_name">College Name</string>
+    <string name="establishment">establishment</string>
+    <string name="estd">estd</string>
+    <string name="call">Call</string>
+    <string name="phone">phone</string>
+    <string name="fee">fee</string>
+    <string name="type">type</string>
+    <string name="website">website</string>
+    <string name="address">address</string>
+    <string name="courses">courses</string>
+    <string name="aboutUs_p1">SimpliAdmission is a one-stop-solution making course and college selection easy for students looking to pursue undergraduate UG courses in India accessible to users through Mobile Application. Our Application is a repository of reliable and authentic information for College affiliated by Mumbai University. We offer specific information for students interested in UG courses in India across the most popular educational streams of Engineering.</string>
+    <string name="aboutUs_p2">We also cover the Basic Guidelines for the any students seeking to take admission in Engineering courses in a concise manner. We have introduced several student oriented products and tools like Top Colleges, College Compare,Scholarship details &amp; Eligibility ,My-shortlist(Favorites) ,FAQs section which covers some basic but important questions which are answered according to students perspective which will help them in decision making by easy access to detailed information on career choices.</string>
+    <string name="select_college">Select College</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="welcome_yourname">Welcome, Loading...</string>
+    <string name="cut_off">Cut off \nLists</string>
+    <string name="previous_years_cut_offs">Previous years cut offs</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="sc1">Colleges list 1:</string>
+    <string name="scl">Select a college from the list</string>
+    <string name="sc2">Colleges list 2:</string>
+    <string name="fee_txt">Fee :</string>
+    <string name="courses_offered">Courses offered :</string>
+    <string name="college_type">Type :</string>
+    <string name="establishment_year">Establishment Year :</string>
+    <string name="download">Download</string>
+    <string name="url">url</string>
+    <string name="type_message">Type message</string>
+    <string name="percentile">Enter Your percentile</string>
+    <string name="Q7Ans">In India, we have two types of colleges, one, those offering degrees in many fields like arts, science, business including engineering and are generally known as universities, and the second, which offer degrees only in engineering and are generally known as Institutes. Universities that offer other degrees along with engineering named their engineering degree as B.E. (Bachelor of Engineering) and Institutes providing professional courses like engineering named their engineering degree as B. Tech. (Bachelor of Technology).</string>
+    <string-array name="branches">
+        <item>Computer Engineering</item>
+        <item>Information Technology</item>
+        <item>Electronics and Telecommunication</item>
+        <item>Electrical Engineering</item>
+    </string-array>
+</resources>

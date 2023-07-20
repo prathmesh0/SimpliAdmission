@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ADD8E6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatBot">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ChatBot"
+        android:textSize="28dp" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/user_input"
+            android:hint="Ask anything about app"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#ede6d6" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rounded_btn"
+            android:backgroundTint="#707070"
+            android:padding="8dp"
+            android:src="@drawable/ic_send"
+            app:tint="@color/white" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

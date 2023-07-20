@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cardView"
+    app:cardBackgroundColor="#ADD8E6"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/college_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp">
+
+            <ImageView
+                android:id="@+id/t10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/college" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/college_logo"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text=""
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/email_address"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

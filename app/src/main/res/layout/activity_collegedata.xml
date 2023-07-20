@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+<!--    tools:context=".CollegeData">-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/clg_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/gradient_background" />
+
+    <TextView
+        android:id="@+id/college_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="#8888"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/college_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressBar"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading"/>
+
+</RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/black_border"
+        android:layout_gravity="start"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/school"
+            android:contentDescription="@string/establishment" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/estd"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/estd"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="10dp"
+        android:background="@drawable/black_border"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@android:drawable/ic_dialog_email"
+            android:contentDescription="@string/establishment"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:id="@+id/emailholder"
+            android:textColor="@color/black"
+            android:text="@string/email_address"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/black_border"
+            android:layout_gravity="start"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/phoneicon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:contentDescription="@string/establishment"
+                android:src="@android:drawable/stat_sys_phone_call"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_toRightOf="@+id/phoneicon"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:text="@string/phone"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/rounded_btn"
+                android:gravity="center"
+                android:text="@string/call"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/black_border"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:padding="10dp"
+            tools:ignore="UseCompoundDrawables"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/fee"
+            android:contentDescription="@string/establishment"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/fee"
+            android:textColor="@color/black"
+            android:id="@+id/fee"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/black_border"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="10dp"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:contentDescription="@string/establishment"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/type"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/type"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/black_border"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="10dp"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/website"
+            android:contentDescription="@string/establishment"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/website"
+            android:id="@+id/website"
+            android:textColor="@color/blue"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/black_border"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="start"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@android:drawable/ic_dialog_map"
+            android:contentDescription="@string/establishment"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/address"
+            android:id="@+id/address"
+            android:textColor="@color/black"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/black_border"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="10dp"
+        tools:ignore="UseCompoundDrawables"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:src="@android:drawable/ic_input_get"
+            android:contentDescription="@string/establishment"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/courses"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:id="@+id/courses"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

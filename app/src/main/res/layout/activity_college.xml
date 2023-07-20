@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".College">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/college_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/colleges"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/undertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/college_txt"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="9dp"
+            android:textColor="#60FFFF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/college_icond"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/college" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/search_view_background"
+        app:queryHint="@string/select_college" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

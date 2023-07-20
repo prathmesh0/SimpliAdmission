@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:padding="20dp">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step-2: Fill Details:"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+
+Step-2.1: Personal Information:
+Fill in your personal details such as your full name, father's/husband's name, mother's name, gender, and date of birth.
+Ensure that all details are the same as those in your SSC certificate.
+"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+Step-2.2: Contact Information:
+Fill in your contact details such as your address for correspondence, mobile number, telephone number, and email ID.
+Select the option for permanent residence, whether you are a resident of India, and your domicile."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+
+Step-2.3: Reservation:
+Select the category you belong to and whether you possess a Caste Certificate and Non-Creamy Layer Group or not.
+"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+Step-2.4: Other Details:
+Fill in your other details such as PwD category, religion, other entrance exams you have applied for, total annual income, Aadhaar number, etc.
+"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step-2.5: Education Information:
+Fill in your education details such as the place where you passed the 12th/equivalent examination, district of school, district of exam center, etc.
+Also, fill in the MH CET exam details such as language and selection of subjects."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create a password for future login.
+Fill in the security key given on the form and click on the 'Next' button."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check that all the data fields have been correctly filled in and click on the 'Ok' button.
+Then, click on the submit button."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note down your application number."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

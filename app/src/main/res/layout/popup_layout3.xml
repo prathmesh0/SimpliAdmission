@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#ADD8E6">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step 3: Upload Images"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After submitting the required details, click on the 'Upload Photo and Signature' button. The photograph should be in JPG format with a size between 15 KB to 50 KB."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The signature should also be in JPG format with a size between 5 KB to 20 KB. The photograph should be a colored passport size photo and taken against a light/white background."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The candidate should sign on a white paper with a black ink pen (no capital letters).Click on the link 'Click here to upload signature'."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Then, click on the 'Choose File' option to upload the photograph."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After uploading both the scanned images, click on the 'Upload Photo'' button."
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

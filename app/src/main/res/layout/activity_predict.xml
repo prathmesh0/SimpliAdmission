@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Predict">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="70dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp">
+
+    <TextView
+        android:id="@+id/college_pred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/prediction"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        tools:targetApi="jelly_bean"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/undertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/college_pred"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="9dp"
+        android:text="Predict your college \nby entering your cet percentile"
+        android:textColor="#60FFFF"
+        android:textSize="12sp"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:id="@+id/college_icond"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/prediction"
+        app:tint="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/prediction" />
+  </RelativeLayout>
+
+  <LinearLayout
+      android:layout_marginTop="100dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="vertical">
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:ignore="MissingConstraints">
+      <EditText
+          android:id="@+id/percentile"
+          android:layout_width="250dp"
+          android:layout_height="60dp"
+          android:gravity="center"
+          android:layout_marginTop="40dp"
+          android:autofillHints="percentile"
+          android:ems="10"
+          android:background="#D3D3D3"
+          android:textSize="20sp"
+          android:hint="@string/percentile"
+          android:inputType="numberDecimal"
+          android:minHeight="48dp"
+          android:textColor="@color/black"
+          android:textColorHighlight="@color/black"
+          android:textColorHint="@color/black"
+          android:textColorLink="@color/black" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:ignore="MissingConstraints">
+      <Spinner
+          android:id="@+id/collegeBranch"
+          android:layout_width="250dp"
+          android:layout_height="60dp"
+          android:layout_marginTop="20dp"
+          android:ems="10"
+          android:backgroundTint="@color/grey"
+          android:entries="@array/branches"
+          android:gravity="center"
+          android:popupBackground="#D3D3D3"
+          android:background="#8888"
+          android:hapticFeedbackEnabled="true"
+          android:isScrollContainer="true"
+          android:textSize="20sp"
+          android:minHeight="48dp"
+          android:textAlignment="center"
+          android:textColor="@color/white" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+      <Button
+          android:id="@+id/predBtn"
+          android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Predict"
+        />
+
+
+  </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressBar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginEnd="50dp"
+      android:textSize="20sp"
+      android:clickable="false"
+      android:text="Enter your CET percentile in the input field"
+      android:gravity="center"
+      android:fontFamily="@font/ubuntu_bold"
+      android:id="@+id/result"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="30dp"
+      android:textSize="10sp"
+      android:textAlignment="center"
+      android:text="Note: Prediction is based on previous year MHT-CET cap-round I data"
+      android:layout_gravity="center"
+      android:fontFamily="@font/amaranth_bold"
+      android:id="@+id/predNote"/>
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
